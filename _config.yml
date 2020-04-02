@@ -1,17 +1,17 @@
 # --- General options --- #
 
 # Name of website
-title: My website
+ title: "ThedaLicious LIVES!!"
 
 # Short description of your site
-description: A virtual proof that I'm awesome
+ description: "Some things I do and care a LOT (ObSeSs?!- no, now Y wud n-e-1 evr..) about"
 
 # --- Local development options ---
 # If your website is hosted locally rather than on GitHub, then you need to uncomment the next two parameters to set the url and baseurl
 # *** If you're not sure what this mean, then leave this section as it is. Only modify the url and baseurl if you know what you're doing!***
 
 # url is the the website domain URL without a trailing slash
-#url: "https://example.com"
+url: "https://LambdaTheda.github.io"
 
 # baseurl should be an empty string
 #baseurl: ""
@@ -22,13 +22,11 @@ description: A virtual proof that I'm awesome
 navbar-links:
   About Me: "aboutme"
   Resources:
-    - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
-    - Learn markdown: "http://www.markdowntutorial.com/"
-  Author's home: "http://deanattali.com"
+    - Artwork of past students: "https://tizwhatiz.blogspot.com"
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
-avatar: "/img/avatar-icon.png"
+  avatar: "/img/LambaTSquaRE.png" 
 
 # If you want to have an image logo in the top-left corner instead of the title text,
 # then specify the following parameter
@@ -51,7 +49,7 @@ footer-link-col: "#404040"
 # Alternatively, the navbar, footer, and page background can be set to use background images
 # instead of colour
 
-# navbar-img: "/img/bgimage.png"
+ navbar-img: "/img/LambaTSquare.png"
 # footer-img: "/img/bgimage.png"
 # page-img: "/img/bgimage.png"
 
@@ -67,13 +65,13 @@ author:
 # You can reorder the items to define the link order.
 # If you want to add a new link that isn't here, you'll need to also edit the file _data/SocialNetworks.yml
 social-network-links:
-  rss: true
-  email: "someone@example.com"
-  facebook: deanattali
-  github: daattali
-  twitter: daattali
+  rss: false
+  email: "ureknew@gmail.com"
+  facebook: false
+  github: false
+  twitter: false
 #  reddit: yourname
-#  linkedin: daattali
+#  linkedin
 #  xing: yourname
 #  stackoverflow: "3943160/daattali"
 #  snapchat: deanat78
@@ -120,6 +118,9 @@ url-pretty: "MyWebsite.com"  # eg. "deanattali.com/beautiful-jekyll"
 # Fill in your Disqus shortname (NOT the userid) if you want to support Disqus comments
 # disqus: ""
 
+# If you want to use JustComments fill with the API Key
+#just-comments: "ABCD-EFGH-IJKL"
+
 # To use Facebook Comments, fill in a Facebook App ID
 # fb_comment_id: ""
 
@@ -133,15 +134,6 @@ staticman:
     # If you use reCaptcha, you must also set these parameters in staticman.yml
     siteKey  : # Use your own site key, you need to apply for one on Google
     secret   : # ENCRYPT your password by going to https://staticman3.herokuapp.com/v3/encrypt/<your-site-secret>
-
-# To use Utterances comments: (1) fill in repository (make sure the repository is public), (2) Enable Issues in your repository, (3) Install the Utterances app in your repository https://github.com/apps/utterances
-# See more details about the parameters below at https://utteranc.es/
-utterances:
-  repository: # GitHub username/repository eg. "daattali/beautiful-jekyll"
-  issue-term: title   # Mapping between blog posts and GitHub issues
-  theme: github-light # Utterances theme
-  label: blog-comments # Label that will be assigned to GitHub Issues created by Utterances
-
 
 # --- Misc --- #
 
@@ -260,3 +252,5 @@ plugins:
 
 # Beautiful Jekyll / Dean Attali
 # 2fc73a3a967e97599c9763d05e564189
+
+theme: jekyll-theme
